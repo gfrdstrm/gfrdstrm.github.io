@@ -6,7 +6,7 @@ html,body
 }
 body 
 { 
-    background-color: whitesmoke; 
+    background-color: white; 
 }
 
 h1 
@@ -23,6 +23,7 @@ div.title
 
 div.jumbotron
 {
+    max-width: 100%;
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     text-align: center; 
@@ -30,6 +31,7 @@ div.jumbotron
 
 div.panel
 {
+    max-width: 100%;
     margin: 10px 80px 10px 80px;
     padding: 10px 10px 10px 10px;
     text-align: center; 
@@ -37,19 +39,27 @@ div.panel
 
 div.caption
 {
-
     text-align: center;
 }
 
-img.logo
+div.row
 {
-    max-width: 7%; height: auto;
+    margin: 10px 40px 10px 40px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;  
 }
 
 img.thumb
 {
    width: auto;
    height: auto;
+}
+
+#twitter
+{
+    background-color: rgb(61, 156, 214);
+    outline: 0;
+    border: 10px;
 }
 
 #melon
@@ -76,4 +86,30 @@ img.thumb
    border-radius: 12px;
    outline: 0;
    max-width: 100%;
+}
+
+#bugs
+{
+    padding: 5px 5px 5px 5px;
+    background-color:orangered;
+    border: 10px;
+    font-size:30px;
+    color:white;
+    text-align: center;
+    border-radius: 12px;
+    outline: 0;
+    max-width: 100%;
+}
+
+#vibe
+{
+    padding: 5px 5px 5px 5px;
+    background-color:rgb(169, 57, 248);
+    border: 10px;
+    font-size:30px;
+    color:white;
+    text-align: center;
+    border-radius: 12px;
+    outline: 0;
+    max-width: 100%;
 }
