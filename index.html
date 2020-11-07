@@ -14,17 +14,17 @@
     <link rel="stylesheet" href="css/style.css">
     <!-----------------link들 여기에-------------------->
 
+
     <title>여자친구 음원 총공</title>
 </head>
 <body>
     <div class="title" data-aos="fade-in">
-        <h1><img class = "logo" src = "img/logo.png" alt="img error">
+        <h1>
             여자친구 음원 총공
-            <img class = "logo" src = "img/logo.png" alt="img error">
         </h1>
     </div>
 
-
+    <!---------------홈페이지 소개--------------->
     <div data-aos="fade-in" class="jumbotron">
         <h2>여자친구 음원총공팀 사이트 입니다</h2>
         <p>
@@ -33,7 +33,25 @@
         </p>
         <p><a class="btn btn-primary btn-lg" onclick="window.open('https://twitter.com/GFRD_STRM')" role="button">여자친구 음원총공팀 트위터 <i class="fab fa-twitter fa-lg"></i></a></p>
     </div>
+    
+    <!--스밍리스트 자동 등록 버튼들-->
+    <div data-aos="fade-in" class="panel panel-default">
+      <div data-aos="fade-in" class="panel-body">
+        원하는 스트리밍 사이트 버튼을 클릭 시 스밍리스트가 추가됩니다!<br><br>
 
+        <button type = "button" id = "melon" onclick="ios(this);" 
+        href="melonapp://play?ctype=1&amp;menuid=0&amp;cid=32772984,32974338,32887104,32772985,32772986,32772987,32772988,32772989,32772984,31052421,5791706,8028701,8262125,32351139,32772984,32351138,32351140,32351141,32351142,32351143,5546489,31556500,30558525,30630736,30285450,31895208,31196764,5650996">
+        Melon</button>
+
+        <button type = "button" id = "genie" onclick="ios(this);" 
+        href="cromegenie://scan/?landing_type=31&amp;landing_target=90512667;90980841;90512668;90512669;90512670;90512671;90512672;90512667;90980841;87946017;84581811;85871514;86427291;89818161">
+        Genie</button>
+        
+      </div>
+    </div>
+
+
+    <!--------------------각종 공지들 보여주는 부분 -------------------->
     <div data-aos="fade-in" class="row">
         <div data-aos="fade-in" class="col-sm-6 col-md-4">
           <div data-aos="fade-in" class="thumbnail">
@@ -89,6 +107,9 @@
         </div>
     </div>
     </div>
+    <!--------------------각종 공지들 보여주는 부분 -------------------->
+
+
 
     <!-----------------스크립트 여기에-------------------->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

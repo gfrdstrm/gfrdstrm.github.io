@@ -28,6 +28,13 @@ div.jumbotron
     text-align: center; 
 }
 
+div.panel
+{
+    margin: 10px 80px 10px 80px;
+    padding: 10px 10px 10px 10px;
+    text-align: center; 
+}
+
 div.caption
 {
 
@@ -43,4 +50,30 @@ img.thumb
 {
    width: auto;
    height: auto;
+}
+
+#melon
+{
+   padding: 5px 5px 5px 5px;
+   background-color: rgb(76, 196, 23);
+   border: 10px;
+   font-size:30px;
+   color:white;
+   text-align: center;
+   border-radius: 12px;
+   outline: 0;
+   max-width: 100%;
+}
+
+#genie
+{
+   padding: 5px 5px 5px 5px;
+   background-color:#393CF8;
+   border: 10px;
+   font-size:30px;
+   color:white;
+   text-align: center;
+   border-radius: 12px;
+   outline: 0;
+   max-width: 100%;
 }
