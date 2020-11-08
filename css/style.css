@@ -64,7 +64,8 @@ img.thumb
 
 #melon
 {
-   padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+   padding: 5px 10px 5px 10px;
    background-color: rgb(76, 196, 23);
    border: 10px;
    font-size:30px;
@@ -77,20 +78,22 @@ img.thumb
 
 #genie
 {
-   padding: 5px 5px 5px 5px;
-   background-color:#393CF8;
-   border: 10px;
-   font-size:30px;
-   color:white;
-   text-align: center;
-   border-radius: 12px;
-   outline: 0;
-   max-width: 100%;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 10px 5px 10px;
+    background-color:#393CF8;
+    border: 10px;
+    font-size:30px;
+    color:white;
+    text-align: center;
+    border-radius: 12px;
+    outline: 0;
+    max-width: 100%;
 }
 
 #bugs
 {
-    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 10px 5px 10px;
     background-color:orangered;
     border: 10px;
     font-size:30px;
@@ -103,7 +106,8 @@ img.thumb
 
 #vibe
 {
-    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 10px 5px 10px;
     background-color:rgb(169, 57, 248);
     border: 10px;
     font-size:30px;
